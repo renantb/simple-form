@@ -1,7 +1,7 @@
 # simple-form
 This is a simple form for study DOM in javascript an also study HTML and CSS
 
-You can add user name's and their email. I added the button and functionality to clear the form fields if you type the wrong. 😁
+You can add user name's and their email. I added the button and functionality to clear the form fields if you type wrong. 😁
 
 <p align="center" >
 <img src="img.png">
