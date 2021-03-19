@@ -3,7 +3,7 @@ const nameInput = document.querySelector('#name')
 const emailInput = document.querySelector('#email')
 const msg = document.querySelector('.msg')
 const userList = document.querySelector('#users')
-const btnClear = document.querySelector('.btnclear')
+const btnClearForm = document.querySelector('.btnclear')
 
 myForm.addEventListener('submit', onSubmit);
 
@@ -24,9 +24,11 @@ function onSubmit(e) {
   }
 }
 
-btnClear.addEventListener('click', clearForm);
+btnClearForm.addEventListener('click', clearForm);
 
 function clearForm() {
   nameInput.value = '' 
   emailInput.value = ''
 }
+
+// I will do an update with remove li individually

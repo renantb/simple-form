@@ -71,6 +71,12 @@ header {
   margin: 5px 0;
 }
 
+.btn-danger {
+  background-color: red;
+  color: white;
+  padding: 0.5rem;
+}
+
 .btn:hover {
   background: #444;
 }
